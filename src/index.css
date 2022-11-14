@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.buttonPrimary{
+    background: #5271FF !important;
+    color: white !important;
+}
+
+.textLeft{
+    text-align: left;
+font-size: 0.8rem;
+}
+
+.HoverLinks:hover{
+    color: #5271FF;
+}

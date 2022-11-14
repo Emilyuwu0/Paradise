@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { useLocation, Switch } from 'react-router-dom';
+import { useLocation, Switch,Route } from 'react-router-dom';
 import AppRoute from './utils/AppRoute';
 import ScrollReveal from './utils/ScrollReveal';
 import ReactGA from 'react-ga';
@@ -9,7 +9,9 @@ import LayoutDefault from './layouts/LayoutDefault';
 
 // Views 
 import Home from './views/Home';
-
+import Ems from "./views/Ems";
+import Lspd from "./views/Lspd";
+import Meca from "./views/Meca";
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
 
@@ -37,6 +39,9 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+          <Route path="/ems" component={Ems} />
+        <Route path="/lspd" component={Lspd} />
+        <Route path="/meca" component={Meca} />
         </Switch>
       )} />
   );

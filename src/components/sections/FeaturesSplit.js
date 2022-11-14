@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'INFORMACIÓN DELICTIVA',
+    paragraph: ''
   };
 
   return (
@@ -67,14 +67,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+              Delictivos
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                BANDA GRATIS
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
+                En esta oportunidad brindamos al ciudadano de Paradise Island RP una de las mejores opciones para que inicies tu vida criminal. Este paquete incluye un máximo de 8 miembros, además, el pago inicial con autos para tu banda.                   </p>
               </div>
               <div className={
                 classNames(
@@ -83,7 +82,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/BANDA_GRATIS.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,13 +92,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                Delictivos
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                MAFIA DIAMOND 
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                En esta oportunidad brindamos al ciudadano de Paradise Island RP una de las mejores opciones más económicas para tu organización criminal. Este paquete incluye un máximo de 16 miembros, además, el pago inicial es de 40 dólares y luego 20 dólares mensuales. Por otro lado, para poder adquirir este paquete previamente se deberá cumplir todos los procedimientos correspondientes y los requisitos que se solicita en el servidor de discord.  
                   </p>
               </div>
               <div className={
@@ -109,7 +108,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/MAFIA_DIAMOND.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -119,13 +118,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                Delictivos
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                MAFIA VIP
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                En esta oportunidad brindamos al ciudadano de Paradise Island RP una de las mejores opciones más económicas para tu organización criminal. Este paquete incluye un máximo de 16 miembros, además, el pago inicial es de 40 dólares y luego 20 dólares mensuales. Por otro lado, para poder adquirir este paquete previamente se deberá cumplir todos los procedimientos correspondientes y los requisitos que se solicita en el servidor de discord.  
                   </p>
               </div>
               <div className={
@@ -135,7 +134,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/MAFIA_VIP.png')}
                   alt="Features split 03"
                   width={528}
                   height={396} />

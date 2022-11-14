@@ -61,34 +61,34 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+            PARADISE ISLAND <span className="text-blue-600">RP</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+              La imaginación en funcionamiento
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
+             {/*    <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
                     Get started
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
                     View on Github
                     </Button>
-                </ButtonGroup>
+                </ButtonGroup> */}
               </div>
             </div>
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
-              data-video="https://player.vimeo.com/video/174002812"
+              data-video="https://www.youtube.com/watch?v=FByBvNKpwAw"
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/icons/uwu.png')}
                 alt="Hero"
                 width={896}
                 height={504} />
@@ -98,7 +98,8 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
+            class="embed-responsive-item"
+            video="https://youtu.be/2VmHiVSpeos2"
             videoTag="iframe" />
         </div>
       </div>

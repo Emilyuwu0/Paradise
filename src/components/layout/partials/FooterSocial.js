@@ -18,47 +18,14 @@ const FooterSocial = ({
     >
       <ul className="list-reset">
         <li>
-          <a href="https://facebook.com/">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg">
-              <title>Facebook</title>
-              <path
-                d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" />
-            </svg>
+          <a href="https://discord.gg/xWuEaE4mvg ">
+           <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCA0OCA0OCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBmaWxsPSIjNTM2ZGZlIiBkPSJNMzkuMjQ4LDEwLjE3N2MtMi44MDQtMS4yODctNS44MTItMi4yMzUtOC45NTYtMi43NzhjLTAuMDU3LTAuMDEtMC4xMTQsMC4wMTYtMC4xNDQsMC4wNjgJYy0wLjM4NywwLjY4OC0wLjgxNSwxLjU4NS0xLjExNSwyLjI5MWMtMy4zODItMC41MDYtNi43NDctMC41MDYtMTAuMDU5LDBjLTAuMy0wLjcyMS0wLjc0NC0xLjYwMy0xLjEzMy0yLjI5MQljLTAuMDMtMC4wNTEtMC4wODctMC4wNzctMC4xNDQtMC4wNjhjLTMuMTQzLDAuNTQxLTYuMTUsMS40ODktOC45NTYsMi43NzhjLTAuMDI0LDAuMDEtMC4wNDUsMC4wMjgtMC4wNTksMC4wNTEJYy01LjcwNCw4LjUyMi03LjI2NywxNi44MzUtNi41LDI1LjA0NGMwLjAwMywwLjA0LDAuMDI2LDAuMDc5LDAuMDU3LDAuMTAzYzMuNzYzLDIuNzY0LDcuNDA5LDQuNDQyLDEwLjk4Nyw1LjU1NAljMC4wNTcsMC4wMTcsMC4xMTgtMC4wMDMsMC4xNTQtMC4wNTFjMC44NDYtMS4xNTYsMS42MDEtMi4zNzQsMi4yNDgtMy42NTZjMC4wMzgtMC4wNzUsMC4wMDItMC4xNjQtMC4wNzYtMC4xOTQJYy0xLjE5Ny0wLjQ1NC0yLjMzNi0xLjAwNy0zLjQzMi0xLjYzNmMtMC4wODctMC4wNTEtMC4wOTQtMC4xNzUtMC4wMTQtMC4yMzRjMC4yMzEtMC4xNzMsMC40NjEtMC4zNTMsMC42ODItMC41MzQJYzAuMDQtMC4wMzMsMC4wOTUtMC4wNCwwLjE0Mi0wLjAxOWM3LjIwMSwzLjI4OCwxNC45OTcsMy4yODgsMjIuMTEzLDBjMC4wNDctMC4wMjMsMC4xMDItMC4wMTYsMC4xNDQsMC4wMTcJYzAuMjIsMC4xODIsMC40NTEsMC4zNjMsMC42ODMsMC41MzZjMC4wOCwwLjA1OSwwLjA3NSwwLjE4My0wLjAxMiwwLjIzNGMtMS4wOTYsMC42NDEtMi4yMzYsMS4xODItMy40MzQsMS42MzQJYy0wLjA3OCwwLjAzLTAuMTEzLDAuMTItMC4wNzUsMC4xOTZjMC42NjEsMS4yOCwxLjQxNSwyLjQ5OCwyLjI0NiwzLjY1NGMwLjAzNSwwLjA0OSwwLjA5NywwLjA3LDAuMTU0LDAuMDUyCWMzLjU5NS0xLjExMiw3LjI0MS0yLjc5LDExLjAwNC01LjU1NGMwLjAzMy0wLjAyNCwwLjA1NC0wLjA2MSwwLjA1Ny0wLjEwMWMwLjkxNy05LjQ5MS0xLjUzNy0xNy43MzUtNi41MDUtMjUuMDQ0CUMzOS4yOTMsMTAuMjA1LDM5LjI3MiwxMC4xODcsMzkuMjQ4LDEwLjE3N3ogTTE2LjcwMywzMC4yNzNjLTIuMTY4LDAtMy45NTQtMS45OS0zLjk1NC00LjQzNXMxLjc1Mi00LjQzNSwzLjk1NC00LjQzNQljMi4yMiwwLDMuOTg5LDIuMDA4LDMuOTU0LDQuNDM1QzIwLjY1OCwyOC4yODIsMTguOTA2LDMwLjI3MywxNi43MDMsMzAuMjczeiBNMzEuMzI0LDMwLjI3M2MtMi4xNjgsMC0zLjk1NC0xLjk5LTMuOTU0LTQuNDM1CXMxLjc1Mi00LjQzNSwzLjk1NC00LjQzNWMyLjIyLDAsMy45ODksMi4wMDgsMy45NTQsNC40MzVDMzUuMjc4LDI4LjI4MiwzMy41NDQsMzAuMjczLDMxLjMyNCwzMC4yNzN6Ij48L3BhdGg+PC9zdmc+"/>
           </a>
         </li>
+      
         <li>
-          <a href="https://twitter.com/">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg">
-              <title>Twitter</title>
-              <path
-                d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" />
-            </svg>
-          </a>
-        </li>
-        <li>
-          <a href="https://google.com/">
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              xmlns="http://www.w3.org/2000/svg">
-              <title>Instagram</title>
-              <g>
-                <circle cx="12.145" cy="3.892" r="1" />
-                <path
-                  d="M8 12c-2.206 0-4-1.794-4-4s1.794-4 4-4 4 1.794 4 4-1.794 4-4 4zm0-6c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2z" />
-                <path
-                  d="M12 16H4c-2.056 0-4-1.944-4-4V4c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zM4 2c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2V4c0-.935-1.065-2-2-2H4z" />
-              </g>
-            </svg>
+          <a href="https://www.instagram.com/paradiserp2k22/">
+          <img alt="svgImg" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiNGRkZGRkY7Ij4gICAgPHBhdGggZD0iTSAxNiAzIEMgOC44MyAzIDMgOC44MyAzIDE2IEwgMyAzNCBDIDMgNDEuMTcgOC44MyA0NyAxNiA0NyBMIDM0IDQ3IEMgNDEuMTcgNDcgNDcgNDEuMTcgNDcgMzQgTCA0NyAxNiBDIDQ3IDguODMgNDEuMTcgMyAzNCAzIEwgMTYgMyB6IE0gMzcgMTEgQyAzOC4xIDExIDM5IDExLjkgMzkgMTMgQyAzOSAxNC4xIDM4LjEgMTUgMzcgMTUgQyAzNS45IDE1IDM1IDE0LjEgMzUgMTMgQyAzNSAxMS45IDM1LjkgMTEgMzcgMTEgeiBNIDI1IDE0IEMgMzEuMDcgMTQgMzYgMTguOTMgMzYgMjUgQyAzNiAzMS4wNyAzMS4wNyAzNiAyNSAzNiBDIDE4LjkzIDM2IDE0IDMxLjA3IDE0IDI1IEMgMTQgMTguOTMgMTguOTMgMTQgMjUgMTQgeiBNIDI1IDE2IEMgMjAuMDQgMTYgMTYgMjAuMDQgMTYgMjUgQyAxNiAyOS45NiAyMC4wNCAzNCAyNSAzNCBDIDI5Ljk2IDM0IDM0IDI5Ljk2IDM0IDI1IEMgMzQgMjAuMDQgMjkuOTYgMTYgMjUgMTYgeiI+PC9wYXRoPjwvc3ZnPg=="/>
           </a>
         </li>
       </ul>
